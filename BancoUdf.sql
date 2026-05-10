@@ -242,3 +242,12 @@ INNER JOIN Matricula ON Historico.matricula_id = Matricula.id_matricula
 INNER JOIN Aluno ON Matricula.aluno_id = Aluno.id_aluno
 INNER JOIN Disciplina ON Matricula.disciplina_id = Disciplina.id_disciplina
 INNER JOIN Professor ON Disciplina.professor_id = Professor.id_professor;
+
+DESCRIBE Aluno;
+DESCRIBE Professor;
+DESCRIBE Disciplina;
+DESCRIBE Curso;
+DESCRIBE Matricula;
+DESCRIBE Historico;
+
+SHOW TABLES;
